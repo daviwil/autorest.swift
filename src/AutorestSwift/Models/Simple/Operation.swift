@@ -62,7 +62,7 @@ public class Operation: Codable {
     public let externalDocs: ExternalDocumentation?
 
     /// per-language information for this aspect
-    public let language: Languages
+    public var language: Languages
 
     /// per-protocol information for this aspect
     public let `protocol`: Protocols

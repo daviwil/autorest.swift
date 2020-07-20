@@ -28,7 +28,7 @@ import Foundation
 
 public class FlagValue: Codable {
     /// per-language information for this value
-    public let language: Language
+    public var language: Language
 
     /// the actual value
     public let value: Int

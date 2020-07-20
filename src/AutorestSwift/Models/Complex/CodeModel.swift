@@ -28,12 +28,12 @@ import Foundation
 
 /// Model that contains all the information required to generate a service API
 public class CodeModel: Codable {
-    let info: Info
-    let schemas: Schemas
-    let operationGroups: [OperationGroup]
-    let globalParameters: [Parameter]?
-    let security: Security
-    let language: Languages
-    let `protocol`: Protocols
-    let extensions: AnyCodable?
+    var info: Info
+    var schemas: Schemas
+    var operationGroups: [OperationGroup]
+    var globalParameters: [Parameter]?
+    var security: Security
+    var language: Languages
+    var `protocol`: Protocols
+    var extensions: AnyCodable?
 }

@@ -29,7 +29,7 @@ import Foundation
 /// an individual value in a ConditionalSchema
 public class ConditionalValue: Codable {
     /// per-language information for this value
-    public let language: Language
+    public var language: Language
 
     /// the actual value
     // TODO: Resolve issue with enum

@@ -59,7 +59,7 @@ public class Value: Codable {
     public let externalDocs: ExternalDocumentation?
 
     /// Per-language information for this aspect
-    public let language: Languages
+    public var language: Languages
 
     /// Per-protocol information for this aspect
     public let `protocol`: Protocols

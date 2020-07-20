@@ -29,7 +29,7 @@ import Foundation
 /// Common pattern for Metadata on aspects
 public class Metadata: Codable {
     /// per-language information for this aspect
-    public let language: Languages
+    public var language: Languages
 
     /// per-protocol information for this aspect
     public let `protocol`: Protocols

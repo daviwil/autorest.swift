@@ -28,7 +28,7 @@ import Foundation
 
 public class Schema: Codable {
     /// Per-language information for Schema
-    public let language: Languages
+    public var language: Languages
 
     /// The schema type
     public let type: AllSchemaTypes
