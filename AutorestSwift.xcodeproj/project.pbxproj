@@ -22,6 +22,10 @@
 
 /* Begin PBXBuildFile section */
 		07E19426CF77C39BAE500ACF /* libPods-AutorestSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D1551AC5FB9279DDE6D239 /* libPods-AutorestSwift.a */; };
+		0A22B04924C898FD00EC018E /* LanguageShortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A22B04724C898FD00EC018E /* LanguageShortcut.swift */; };
+		0A22B04A24C898FD00EC018E /* FileDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A22B04824C898FD00EC018E /* FileDestination.swift */; };
+		0A22B04E24C8990700EC018E /* Encodable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A22B04C24C8990700EC018E /* Encodable+Extensions.swift */; };
+		0A22B04F24C8990700EC018E /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A22B04D24C8990700EC018E /* URL+Extensions.swift */; };
 		A8E0881BE1C5556D6425CC16 /* libPods-AutorestSwiftTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6111AB27AE90FF2215A75C1F /* libPods-AutorestSwiftTests.a */; };
 		OBJ_131 /* CodeGenerationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* CodeGenerationError.swift */; };
 		OBJ_132 /* CodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* CodeGenerator.swift */; };
@@ -157,6 +161,10 @@
 /* Begin PBXFileReference section */
 		0A22B02C24C88EB000EC018E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0A22B02D24C88EB000EC018E /* Package.resolved */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Package.resolved; sourceTree = "<group>"; };
+		0A22B04724C898FD00EC018E /* LanguageShortcut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageShortcut.swift; sourceTree = "<group>"; };
+		0A22B04824C898FD00EC018E /* FileDestination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileDestination.swift; sourceTree = "<group>"; };
+		0A22B04C24C8990700EC018E /* Encodable+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Encodable+Extensions.swift"; sourceTree = "<group>"; };
+		0A22B04D24C8990700EC018E /* URL+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
 		50684F746D1F4406B5919571 /* Pods-AutorestSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutorestSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-AutorestSwiftTests/Pods-AutorestSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6111AB27AE90FF2215A75C1F /* libPods-AutorestSwiftTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutorestSwiftTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D1551AC5FB9279DDE6D239 /* libPods-AutorestSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutorestSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -299,6 +307,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A22B04B24C8990700EC018E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0A22B04C24C8990700EC018E /* Encodable+Extensions.swift */,
+				0A22B04D24C8990700EC018E /* URL+Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		D140A829FDBE9A58B03FF430 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -469,6 +486,7 @@
 			children = (
 				OBJ_9 /* Code Generator */,
 				OBJ_17 /* Models */,
+				0A22B04B24C8990700EC018E /* Utils */,
 				OBJ_109 /* main.swift */,
 			);
 			name = AutorestSwift;
@@ -507,6 +525,8 @@
 		OBJ_9 /* Code Generator */ = {
 			isa = PBXGroup;
 			children = (
+				0A22B04824C898FD00EC018E /* FileDestination.swift */,
+				0A22B04724C898FD00EC018E /* LanguageShortcut.swift */,
 				OBJ_10 /* CodeGenerationError.swift */,
 				OBJ_11 /* CodeGenerator.swift */,
 				OBJ_12 /* CodeNamer.swift */,
@@ -688,6 +708,7 @@
 				OBJ_145 /* CodeModel.swift in Sources */,
 				OBJ_146 /* ComplexSchema.swift in Sources */,
 				OBJ_147 /* ConditionalSchema.swift in Sources */,
+				0A22B04F24C8990700EC018E /* URL+Extensions.swift in Sources */,
 				OBJ_148 /* ConstantSchema.swift in Sources */,
 				OBJ_149 /* CredentialSchema.swift in Sources */,
 				OBJ_150 /* DateSchema.swift in Sources */,
@@ -711,6 +732,7 @@
 				OBJ_168 /* Parameter.swift in Sources */,
 				OBJ_169 /* PrimitiveSchema.swift in Sources */,
 				OBJ_170 /* Property.swift in Sources */,
+				0A22B04A24C898FD00EC018E /* FileDestination.swift in Sources */,
 				OBJ_171 /* Protocol.swift in Sources */,
 				OBJ_172 /* Request.swift in Sources */,
 				OBJ_173 /* Response.swift in Sources */,
@@ -735,6 +757,7 @@
 				OBJ_192 /* ImplementationLocation.swift in Sources */,
 				OBJ_193 /* KnownMediaType.swift in Sources */,
 				OBJ_194 /* ObjectSchemaTypes.swift in Sources */,
+				0A22B04924C898FD00EC018E /* LanguageShortcut.swift in Sources */,
 				OBJ_195 /* ParameterLocation.swift in Sources */,
 				OBJ_196 /* PathEncodingStyle.swift in Sources */,
 				OBJ_197 /* PrimitiveSchemaTypes.swift in Sources */,
@@ -763,6 +786,7 @@
 				OBJ_220 /* Protocols.swift in Sources */,
 				OBJ_221 /* Relations.swift in Sources */,
 				OBJ_222 /* Schemas.swift in Sources */,
+				0A22B04E24C8990700EC018E /* Encodable+Extensions.swift in Sources */,
 				OBJ_223 /* Security.swift in Sources */,
 				OBJ_224 /* SecurityRequirement.swift in Sources */,
 				OBJ_225 /* SerializationFormats.swift in Sources */,
