@@ -26,6 +26,7 @@
 		0A22B04A24C898FD00EC018E /* FileDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A22B04824C898FD00EC018E /* FileDestination.swift */; };
 		0A22B04E24C8990700EC018E /* Encodable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A22B04C24C8990700EC018E /* Encodable+Extensions.swift */; };
 		0A22B04F24C8990700EC018E /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A22B04D24C8990700EC018E /* URL+Extensions.swift */; };
+		0A22B05124C8ADC800EC018E /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A22B05024C8ADC800EC018E /* String+Extensions.swift */; };
 		A8E0881BE1C5556D6425CC16 /* libPods-AutorestSwiftTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6111AB27AE90FF2215A75C1F /* libPods-AutorestSwiftTests.a */; };
 		OBJ_131 /* CodeGenerationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* CodeGenerationError.swift */; };
 		OBJ_132 /* CodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* CodeGenerator.swift */; };
@@ -165,6 +166,7 @@
 		0A22B04824C898FD00EC018E /* FileDestination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileDestination.swift; sourceTree = "<group>"; };
 		0A22B04C24C8990700EC018E /* Encodable+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Encodable+Extensions.swift"; sourceTree = "<group>"; };
 		0A22B04D24C8990700EC018E /* URL+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
+		0A22B05024C8ADC800EC018E /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		50684F746D1F4406B5919571 /* Pods-AutorestSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutorestSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-AutorestSwiftTests/Pods-AutorestSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6111AB27AE90FF2215A75C1F /* libPods-AutorestSwiftTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutorestSwiftTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D1551AC5FB9279DDE6D239 /* libPods-AutorestSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutorestSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -311,6 +313,7 @@
 			isa = PBXGroup;
 			children = (
 				0A22B04C24C8990700EC018E /* Encodable+Extensions.swift */,
+				0A22B05024C8ADC800EC018E /* String+Extensions.swift */,
 				0A22B04D24C8990700EC018E /* URL+Extensions.swift */,
 			);
 			path = Utils;
@@ -719,6 +722,7 @@
 				OBJ_155 /* GroupProperty.swift in Sources */,
 				OBJ_156 /* GroupSchema.swift in Sources */,
 				OBJ_157 /* HttpModel.swift in Sources */,
+				0A22B05124C8ADC800EC018E /* String+Extensions.swift in Sources */,
 				OBJ_158 /* HttpParameter.swift in Sources */,
 				OBJ_159 /* HttpRequest.swift in Sources */,
 				OBJ_160 /* HttpResponse.swift in Sources */,
